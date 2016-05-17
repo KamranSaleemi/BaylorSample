@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+@using BaylorSample.ViewModels
+@model System.Collections.Generic.IEnumerable<ListCustomerModel>
+
+<h2>Customer</h2>
+
+@{ 
+    var counter = 1;
+}
+@foreach (var customer in Model)
+{
+
+    <div>
+        @Html.ActionLink(counter++ + ": " + customer.CompanyName, "Edit", new { customerID = customer.CustomerID})
+         
+    </div>
+}

@@ -108,3 +108,7 @@ C:\Work\Projects\Baylor Sample\src\bin\System.Web.Http.WebHost.xml
 C:\Work\Projects\Baylor Sample\src\obj\Debug\BaylorSample.csprojResolveAssemblyReference.cache
 C:\Work\Projects\Baylor Sample\src\obj\Debug\BaylorSample.dll
 C:\Work\Projects\Baylor Sample\src\obj\Debug\BaylorSample.pdb
+C:\Work\Projects\Baylor Sample\src\bin\EntityFramework.dll
+C:\Work\Projects\Baylor Sample\src\bin\EntityFramework.SqlServer.dll
+C:\Work\Projects\Baylor Sample\src\bin\EntityFramework.xml
+C:\Work\Projects\Baylor Sample\src\bin\EntityFramework.SqlServer.xml

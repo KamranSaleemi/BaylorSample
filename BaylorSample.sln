@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sql Database", "Sql Database", "{8EF48E1C-96F4-4DD7-8BEF-E89B4786E466}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaylorSample", "src\BaylorSample.csproj", "{2CCFBB93-5612-4BDB-B90F-D9A7621D6082}"
 EndProject
 Global

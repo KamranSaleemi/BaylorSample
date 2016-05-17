@@ -16,9 +16,10 @@
 // --------------------------------------------------------------------------------------------------------------------
 
 namespace BaylorSample.DependencyResolution {
+    using Infrastructure;
     using StructureMap.Configuration.DSL;
     using StructureMap.Graph;
-	
+
     public class DefaultRegistry : Registry {
         #region Constructors and Destructors
 
@@ -29,6 +30,8 @@ namespace BaylorSample.DependencyResolution {
                     scan.WithDefaultConventions();
 					scan.With(new ControllerConvention());
                 });
+
+
             //For<IExample>().Use<Example>();
         }
 
