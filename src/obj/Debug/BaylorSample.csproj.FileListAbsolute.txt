@@ -112,3 +112,5 @@ C:\Work\Projects\Baylor Sample\src\bin\EntityFramework.dll
 C:\Work\Projects\Baylor Sample\src\bin\EntityFramework.SqlServer.dll
 C:\Work\Projects\Baylor Sample\src\bin\EntityFramework.xml
 C:\Work\Projects\Baylor Sample\src\bin\EntityFramework.SqlServer.xml
+C:\Work\Projects\Baylor Sample\src\bin\MediatR.dll
+C:\Work\Projects\Baylor Sample\src\bin\MediatR.xml

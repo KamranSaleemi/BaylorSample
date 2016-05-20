@@ -26,6 +26,13 @@ namespace BaylorSample.Controllers
         // GET: Home
         public ActionResult Index()
         {
+            var query = new FindCustomerQuery(new FindCustomerQuery.Criteria {
+                CustomerName = "Ana"
+            });
+
+            var customers = query.Execute(_dbContext);
+            customers.ToList();
+
             IEnumerable<ListCustomerModel> model = _dbContext.Customers.ToArray().Select(x => ListCustomerModel.From(x));
             return View(model);
         }
@@ -44,8 +51,12 @@ namespace BaylorSample.Controllers
         [HttpPost]
         public ActionResult Edit(EditCustomerModel model)
         {
+
             if (ModelState.IsValid == false)
-                return View(model);
+            {
+                return View();  
+            }
+                
 
             var customer = _dbContext.Customers.Find(model.CustomerID);
             customer.CompanyName = model.CompanyName;
@@ -54,13 +65,6 @@ namespace BaylorSample.Controllers
             return RedirectToAction("Index");
         }
 
-        public ActionResult Search(string criteria)
-        {
-            var customers = new FindCustomerByNameQuery(_dbContext)
-                                    .Execute()
-                                    .ToListCustomerModel();
 
-            return
-        }
     }
 }
