@@ -15,7 +15,7 @@
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace BaylorSample.DependencyResolution {
+namespace BaylorSample.Web.DependencyResolution {
     using Infrastructure;
     using StructureMap.Configuration.DSL;
     using StructureMap.Graph;

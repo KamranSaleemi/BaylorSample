@@ -15,19 +15,19 @@
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
-using BaylorSample.App_Start;
+using BaylorSample.Web.App_Start;
 
 using WebActivatorEx;
 
 [assembly: PreApplicationStartMethod(typeof(StructuremapMvc), "Start")]
 [assembly: ApplicationShutdownMethod(typeof(StructuremapMvc), "End")]
 
-namespace BaylorSample.App_Start {
+namespace BaylorSample.Web.App_Start {
 	using System.Web.Mvc;
 
     using Microsoft.Web.Infrastructure.DynamicModuleHelper;
 
-	using BaylorSample.DependencyResolution;
+	using BaylorSample.Web.DependencyResolution;
 
     using StructureMap;
     

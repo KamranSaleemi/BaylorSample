@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Data.Entity;
-using BaylorSample.Entities;
+using BaylorSample.Web.Entities;
 
-namespace BaylorSample.Data
+namespace BaylorSample.Web.Data
 {
     public class NorthwindDBContext : DbContext
     {

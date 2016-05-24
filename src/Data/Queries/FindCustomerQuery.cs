@@ -1,10 +1,10 @@
-﻿using BaylorSample.Entities;
+﻿using BaylorSample.Web.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace BaylorSample.Data.Queries
+namespace BaylorSample.Web.Data.Queries
 {
     public class FindCustomerQuery 
     {

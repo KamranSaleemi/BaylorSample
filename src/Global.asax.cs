@@ -8,7 +8,7 @@ using System.Web.Security;
 using System.Web.SessionState;
 using System.Web.Http;
 using System.Data.Entity;
-using BaylorSample.Data;
+using BaylorSample.Web.Data;
 
 namespace BaylorSample
 {

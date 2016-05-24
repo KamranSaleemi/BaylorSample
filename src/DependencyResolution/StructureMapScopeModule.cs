@@ -1,7 +1,7 @@
-namespace BaylorSample.DependencyResolution {
+namespace BaylorSample.Web.DependencyResolution {
     using System.Web;
 
-    using BaylorSample.App_Start;
+    using BaylorSample.Web.App_Start;
 
     using StructureMap.Web.Pipeline;
 

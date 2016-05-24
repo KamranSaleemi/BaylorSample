@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Text;
 
-namespace BaylorSample.Infrastructure
+namespace BaylorSample.Web.Infrastructure
 {
     public class Logger : ILogger
     {

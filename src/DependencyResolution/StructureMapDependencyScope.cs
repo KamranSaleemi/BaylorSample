@@ -15,7 +15,7 @@
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace BaylorSample.DependencyResolution {
+namespace BaylorSample.Web.DependencyResolution {
     using System;
     using System.Collections.Generic;
     using System.Linq;

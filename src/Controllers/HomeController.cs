@@ -1,16 +1,16 @@
-﻿using BaylorSample.Data;
-using BaylorSample.Infrastructure;
-using BaylorSample.ViewModels;
+﻿using BaylorSample.Web.Data;
+using BaylorSample.Web.Infrastructure;
+using BaylorSample.Web.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-using BaylorSample.Entities;
-using BaylorSample.Data.Queries;
+using BaylorSample.Web.Entities;
+using BaylorSample.Web.Data.Queries;
 
-namespace BaylorSample.Controllers
+namespace BaylorSample.Web.Controllers
 {
     public class HomeController : Controller
     {

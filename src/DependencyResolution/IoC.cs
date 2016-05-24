@@ -16,7 +16,7 @@
 // --------------------------------------------------------------------------------------------------------------------
 
 
-namespace BaylorSample.DependencyResolution {
+namespace BaylorSample.Web.DependencyResolution {
     using StructureMap;
 	
     public static class IoC {

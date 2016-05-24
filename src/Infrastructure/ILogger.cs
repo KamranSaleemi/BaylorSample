@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BaylorSample.Infrastructure
+namespace BaylorSample.Web.Infrastructure
 {
     public interface ILogger
     {

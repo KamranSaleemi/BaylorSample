@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace BaylorSample.Entities
+namespace BaylorSample.Web.Entities
 {
     public class Customer
     {

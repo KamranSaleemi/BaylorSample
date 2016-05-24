@@ -1,7 +1,7 @@
-﻿using BaylorSample.Entities;
+﻿using BaylorSample.Web.Entities;
 using System.ComponentModel.DataAnnotations;
 
-namespace BaylorSample.ViewModels
+namespace BaylorSample.Web.ViewModels
 {
     public class EditCustomerModel
     {
