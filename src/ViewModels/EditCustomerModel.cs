@@ -1,4 +1,4 @@
-﻿using BaylorSample.Web.Entities;
+﻿using BaylorSample.Shared.Entities;
 using System.ComponentModel.DataAnnotations;
 
 namespace BaylorSample.Web.ViewModels

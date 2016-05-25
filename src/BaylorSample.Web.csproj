@@ -163,16 +163,13 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\StructuremapMvc.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Common\CustomerExtensions.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Data\NorthwindDBContext.cs" />
-    <Compile Include="Data\Queries\FindCustomerQuery.cs" />
     <Compile Include="DependencyResolution\ControllerConvention.cs" />
     <Compile Include="DependencyResolution\DefaultRegistry.cs" />
     <Compile Include="DependencyResolution\IoC.cs" />
     <Compile Include="DependencyResolution\StructureMapDependencyScope.cs" />
     <Compile Include="DependencyResolution\StructureMapScopeModule.cs" />
-    <Compile Include="Entities\Customer.cs" />
-    <Compile Include="Entities\CustomerExtensions.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -203,6 +200,12 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BaylorSample.Shared\BaylorSample.Shared.csproj">
+      <Project>{96852c55-eddc-4ca7-9de4-f9df9b44afbe}</Project>
+      <Name>BaylorSample.Shared</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

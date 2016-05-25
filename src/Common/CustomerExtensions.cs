@@ -3,8 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using BaylorSample.Shared.Entities;
 
-namespace BaylorSample.Web.Entities
+namespace BaylorSample.Web.Common
 {
     public static class CustomerExtensions
     {

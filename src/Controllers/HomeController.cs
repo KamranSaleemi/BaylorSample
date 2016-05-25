@@ -1,14 +1,10 @@
-﻿using BaylorSample.Web.Data;
-using BaylorSample.Web.Infrastructure;
+﻿using BaylorSample.Web.Infrastructure;
 using BaylorSample.Web.ViewModels;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
-
-using BaylorSample.Web.Entities;
-using BaylorSample.Web.Data.Queries;
+using BaylorSample.Shared.Data;
+using BaylorSample.Shared.Data.Queries;
 
 namespace BaylorSample.Web.Controllers
 {
