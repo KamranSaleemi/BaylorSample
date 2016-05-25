@@ -7,8 +7,8 @@ namespace BaylorSample.Web.ViewModels
     {
         public string CustomerID { get; set; }
 
-        //[Required(AllowEmptyStrings =false, ErrorMessage = "Company Name is Required")]
-        //[MinLength(3)]
+        [Required(AllowEmptyStrings = false, ErrorMessage = "Company Name is Required")]
+        [MinLength(3)]
         public string CompanyName { get; set; }
 
         public static EditCustomerModel From(Customer customer)

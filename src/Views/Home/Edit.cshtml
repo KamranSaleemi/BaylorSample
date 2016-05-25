@@ -2,7 +2,7 @@
 @{
     ViewBag.Title = "Edit";
 }
-@model BaylorSample.ViewModels.EditCustomerModel
+@model BaylorSample.Web.ViewModels.EditCustomerModel
 
 @using (Html.BeginForm())
 {
@@ -10,7 +10,7 @@
     @Model.CompanyName
     <br/>
     Company Name: @Html.TextBoxFor(x => x.CompanyName)
-    @*@Html.ValidationMessageFor(x => x.CompanyName)*@
+    @Html.ValidationMessageFor(x => x.CompanyName)
 </div>
 <div>
     <input type="submit" value="Save" />
